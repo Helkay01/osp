@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>React — How a Facebook Side Project Became the Web's Default UI Library — Upstream</title>
+  <meta name="description" content="React's component model and virtual DOM reshaped how much of the industry builds interactive interfaces.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;700;800&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+
+  <div id="global-header"></div>
+
+  <section class="page-hero">
+    <span class="hero-eyebrow"><span class="dot"></span> project spotlight</span>
+    <h1>Project Spotlight: React — How a Facebook Side Project Became the Web's Default UI Library</h1>
+    <div class="article-meta-row">
+      <span class="read-time">5 min read</span>
+    </div>
+  </section>
+
+  <main class="prose-wrap">
+    <a href="/index.html" class="back-link">&larr; Back to all posts</a>
+    <article class="prose">
+      <p>React was created by Facebook software engineer Jordan Walke and first used internally on Facebook's newsfeed before being open-sourced in 2013. Its central idea — breaking a user interface into reusable components, each managing its own state — was a significant departure from the templating-heavy approaches common in web development at the time.</p>
+
+      <p>React's use of a virtual DOM, an in-memory representation of the UI that gets diffed against the real DOM to calculate minimal updates, was a key part of what made it fast enough for complex, frequently updating interfaces.</p>
+
+      <p>The project weathered a licensing controversy of its own: React's original open source license included a patent clause that some companies considered legally risky, prompting Facebook to relicense it under the standard MIT license in 2017 after public pressure from parts of the developer community.</p>
+
+      <p>React remains maintained primarily by Meta but accepts contributions from a wide external community, and its component model has directly influenced the design of competing frameworks including Vue and, more recently, Solid and Svelte.</p>
+
+      <div class="repo-callout">
+        <p>
+          <span class="repo-callout-label">Source</span>
+          facebook/react on GitHub
+        </p>
+        <a href="https://github.com/facebook/react" class="repo-callout-btn" target="_blank" rel="noopener noreferrer">View repository &rarr;</a>
+      </div>
+    </article>
+  </main>
+
+  <div id="global-footer"></div>
+
+  <script src="/script.js"></script>
+</body>
+</html>

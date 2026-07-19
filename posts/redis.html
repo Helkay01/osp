@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Redis — What Its License Reversal Says About Trust — Upstream</title>
+  <meta name="description" content="Redis moved away from open source licensing in 2024, then reversed course in 2025 — a case study in what happens when a project's license and its community disagree.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;700;800&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+
+  <div id="global-header"></div>
+
+  <section class="page-hero">
+    <span class="hero-eyebrow"><span class="dot"></span> project spotlight</span>
+    <h1>Project Spotlight: Redis — What Its License Reversal Says About Trust</h1>
+    <div class="article-meta-row">
+      <span class="read-time">6 min read</span>
+    </div>
+  </section>
+
+  <main class="prose-wrap">
+    <a href="/index.html" class="back-link">&larr; Back to all posts</a>
+    <article class="prose">
+      <p>Redis was created by Salvatore Sanfilippo (widely known as "antirez") in 2009 as a fast, in-memory key-value data store, and it grew into one of the most widely deployed caching and data-structure servers in the industry, historically distributed under the permissive BSD-3-Clause license.</p>
+
+      <p>In March 2024, Redis Ltd. changed the license on new versions of Redis to a dual-license model combining the Server Side Public License (SSPL) and the Redis Source Available License v2 (RSALv2) — neither of which is recognized as open source by the Open Source Initiative. The company framed the change as a response to large cloud providers offering managed Redis services without contributing back.</p>
+
+      <p>The reaction from parts of the community was sharp enough that a group of maintainers and companies forked the last BSD-licensed version to create Valkey, placed under the neutral governance of the Linux Foundation.</p>
+
+      <p>In May 2025, Redis reversed course, adding the OSI-approved AGPLv3 as a licensing option starting with Redis 8 — a move the company described directly as returning to open source. Sanfilippo, who had rejoined Redis as a developer advocate in late 2024, publicly welcomed the change. The episode is now frequently cited in open source governance discussions as an example of how quickly a relicensing decision can fracture a community, and how a fork's momentum can pressure a company to reconsider.</p>
+
+      <div class="repo-callout">
+        <p>
+          <span class="repo-callout-label">Source</span>
+          redis/redis on GitHub
+        </p>
+        <a href="https://github.com/redis/redis" class="repo-callout-btn" target="_blank" rel="noopener noreferrer">View repository &rarr;</a>
+      </div>
+    </article>
+  </main>
+
+  <div id="global-footer"></div>
+
+  <script src="/script.js"></script>
+</body>
+</html>

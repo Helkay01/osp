@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Rust — Memory Safety Without a Garbage Collector — Upstream</title>
+  <meta name="description" content="Rust grew from a Mozilla research project into an independently governed language used across systems programming.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;700;800&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+
+  <div id="global-header"></div>
+
+  <section class="page-hero">
+    <span class="hero-eyebrow"><span class="dot"></span> project spotlight</span>
+    <h1>Project Spotlight: Rust — Memory Safety Without a Garbage Collector</h1>
+    <div class="article-meta-row">
+      <span class="read-time">6 min read</span>
+    </div>
+  </section>
+
+  <main class="prose-wrap">
+    <a href="/index.html" class="back-link">&larr; Back to all posts</a>
+    <article class="prose">
+      <p>Rust began as a personal project by Mozilla employee Graydon Hoare in 2006 and became an officially sponsored Mozilla project in 2009. Its central goal was ambitious: memory safety and thread safety guaranteed at compile time, without relying on a garbage collector — a combination that systems programming languages hadn't offered before.</p>
+
+      <p>That goal is enforced through Rust's ownership and borrowing system, which the compiler checks statically. The trade-off is a steeper learning curve than many languages, but the payoff is eliminating entire categories of memory-safety bugs — use-after-free, data races, null pointer dereferences — that have historically been common sources of security vulnerabilities in C and C++ codebases.</p>
+
+      <p>Mozilla laid off most of its Rust team during a 2020 restructuring, which raised real questions about the language's future. In response, Rust's governance was formalized under the independent Rust Foundation, established in 2021 with founding corporate members including AWS, Google, Microsoft, Huawei, and Mozilla, explicitly to ensure the language wasn't dependent on any single company's continued investment.</p>
+
+      <p>Rust is released under a dual MIT/Apache 2.0 license and has since been adopted for security-sensitive components inside major operating systems and browsers, including parts of the Linux kernel itself.</p>
+
+      <div class="repo-callout">
+        <p>
+          <span class="repo-callout-label">Source</span>
+          rust-lang/rust on GitHub
+        </p>
+        <a href="https://github.com/rust-lang/rust" class="repo-callout-btn" target="_blank" rel="noopener noreferrer">View repository &rarr;</a>
+      </div>
+    </article>
+  </main>
+
+  <div id="global-footer"></div>
+
+  <script src="/script.js"></script>
+</body>
+</html>

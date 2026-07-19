@@ -11,8 +11,8 @@
 // live site without redeploying it at all.
 // ============================================================
 
-const POSTS_URL = "data/posts.json";
-const REPOS_URL = "data/repos.json";
+const POSTS_URL = "/data/posts.json";
+const REPOS_URL = "/data/repos.json";
 
 // Universal injector function using the modern browser fetch API
 function injectComponent(targetId, sourceFile) {
@@ -126,8 +126,8 @@ function setActiveNavLink() {
   const currentPage = window.location.pathname.split("/").pop() || "index.html";
 
   nav.querySelectorAll("a").forEach(link => {
-    const linkPage = (link.getAttribute("href") || "").split("#")[0];
-    if (linkPage === currentPage) {
+    const linkPage = (link.getAttribute("href") || "").split("#")[0].split("/").pop();
+    if (linkPage && linkPage === currentPage) {
       link.setAttribute("aria-current", "page");
     } else {
       link.removeAttribute("aria-current");
@@ -156,8 +156,8 @@ function initNavToggle() {
 
 document.addEventListener("DOMContentLoaded", () => {
   Promise.all([
-    injectComponent("global-header", "header.html"),
-    injectComponent("global-footer", "footer.html")
+    injectComponent("global-header", "/header.html"),
+    injectComponent("global-footer", "/footer.html")
   ]).then(() => {
     setActiveNavLink();
     initNavToggle();

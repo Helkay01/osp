@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>FFmpeg — The Multimedia Toolkit Almost Everything Quietly Depends On — Upstream</title>
+  <meta name="description" content="FFmpeg's audio and video libraries sit invisibly inside browsers, streaming platforms, and editing tools.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;700;800&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+
+  <div id="global-header"></div>
+
+  <section class="page-hero">
+    <span class="hero-eyebrow"><span class="dot"></span> project spotlight</span>
+    <h1>Project Spotlight: FFmpeg — The Multimedia Toolkit Almost Everything Quietly Depends On</h1>
+    <div class="article-meta-row">
+      <span class="read-time">6 min read</span>
+    </div>
+  </section>
+
+  <main class="prose-wrap">
+    <a href="/index.html" class="back-link">&larr; Back to all posts</a>
+    <article class="prose">
+      <p>FFmpeg started in 2000 as a project by Fabrice Bellard (under the pseudonym Gerard Lantau), who wanted a single, fast toolkit for converting and processing audio and video in almost any format. The name is a nod to the MPEG standards it was built to work with, prefixed with "FF" for "fast forward."</p>
+
+      <p>What makes FFmpeg unusual is how invisible it is relative to how widely it's used. Its libraries — libavcodec, libavformat, and others — are embedded inside browsers, video editors, streaming platforms, and countless internal tools at technology companies, almost always without end users ever seeing the FFmpeg name.</p>
+
+      <p>The project is maintained by a distributed group of contributors and released under the LGPL, with some components under the stricter GPL depending on which codecs are enabled at build time. That licensing structure has occasionally created friction with companies that wanted to bundle FFmpeg into closed-source products, which is part of why understanding its build configuration matters for downstream users.</p>
+
+      <p>Because so much software depends on the same underlying decoding and encoding logic, security issues found in FFmpeg tend to have an unusually wide blast radius, which is one reason the project's maintainers put significant effort into fuzzing and vulnerability triage.</p>
+
+      <div class="repo-callout">
+        <p>
+          <span class="repo-callout-label">Source</span>
+          FFmpeg/FFmpeg on GitHub
+        </p>
+        <a href="https://github.com/FFmpeg/FFmpeg" class="repo-callout-btn" target="_blank" rel="noopener noreferrer">View repository &rarr;</a>
+      </div>
+    </article>
+  </main>
+
+  <div id="global-footer"></div>
+
+  <script src="/script.js"></script>
+</body>
+</html>
