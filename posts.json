@@ -1,0 +1,98 @@
+[
+  {
+    "readTime": "5 min read",
+    "title": "Project Spotlight: PostgreSQL — The Database Community Ownership Kept Independent",
+    "excerpt": "Descended from a research database built at UC Berkeley in the 1980s, PostgreSQL has stayed community-governed for decades rather than being controlled by any single vendor.",
+    "link": "https://github.com/postgres/postgres"
+  },
+  {
+    "readTime": "5 min read",
+    "title": "Project Spotlight: Nginx — The Web Server Built to Solve the C10K Problem",
+    "excerpt": "Created by Igor Sysoev to handle tens of thousands of concurrent connections efficiently, Nginx now sits in front of a large share of the web's traffic.",
+    "link": "https://github.com/nginx/nginx"
+  },
+  {
+    "readTime": "6 min read",
+    "title": "Project Spotlight: FFmpeg — The Multimedia Toolkit Almost Everything Quietly Depends On",
+    "excerpt": "FFmpeg's encoding and decoding libraries sit invisibly inside browsers, streaming platforms, and editing software most people use every day.",
+    "link": "https://github.com/FFmpeg/FFmpeg"
+  },
+  {
+    "readTime": "5 min read",
+    "title": "Project Spotlight: Godot Engine — A Community-Owned Alternative in Game Development",
+    "excerpt": "Godot's MIT license and nonprofit foundation backing have made it a go-to option for developers wary of the licensing terms attached to commercial engines.",
+    "link": "https://github.com/godotengine/godot"
+  },
+  {
+    "readTime": "6 min read",
+    "title": "Project Spotlight: Redis — What Its License Reversal Says About Trust",
+    "excerpt": "After moving away from an open source license in 2024, Redis reintroduced an OSI-approved AGPLv3 option in 2025 following community and fork pressure.",
+    "link": "https://github.com/redis/redis"
+  },
+  {
+    "readTime": "5 min read",
+    "title": "Project Spotlight: Django — The Framework a Newsroom Built and Gave Away",
+    "excerpt": "Originally built inside a newspaper's web team in 2003, Django was open-sourced in 2005 and is now maintained by the nonprofit Django Software Foundation.",
+    "link": "https://github.com/django/django"
+  },
+  {
+    "readTime": "6 min read",
+    "title": "Project Spotlight: Home Assistant — Local-First Smart Home Software Under Foundation Ownership",
+    "excerpt": "In April 2024, ownership of Home Assistant moved to the nonprofit Open Home Foundation, formalizing its long-standing commitment to local control and privacy.",
+    "link": "https://github.com/home-assistant/core"
+  },
+  {
+    "readTime": "5 min read",
+    "title": "Project Spotlight: Ansible — Agentless Automation That Changed Configuration Management",
+    "excerpt": "Created by Michael DeHaan and later acquired by Red Hat, Ansible popularized YAML-based, agentless infrastructure automation across the industry.",
+    "link": "https://github.com/ansible/ansible"
+  },
+  {
+    "readTime": "5 min read",
+    "title": "Project Spotlight: Visual Studio Code — An Editor Bet That Reshaped Developer Tooling",
+    "excerpt": "Built on Electron and released by Microsoft in 2015, VS Code's open core and extension marketplace made it one of the most widely used code editors.",
+    "link": "https://github.com/microsoft/vscode"
+  },
+  {
+    "readTime": "6 min read",
+    "title": "Project Spotlight: PyTorch — From a Single Company's Research Lab to Foundation Governance",
+    "excerpt": "Originally released by Meta AI, PyTorch moved to the independent PyTorch Foundation under the Linux Foundation in 2022, broadening its governance.",
+    "link": "https://github.com/pytorch/pytorch"
+  },
+  {
+    "readTime": "5 min read",
+    "title": "Project Spotlight: Node.js — Bringing JavaScript Out of the Browser",
+    "excerpt": "Built on Chrome's V8 engine and first released in 2009, Node.js is now governed by the OpenJS Foundation and underpins much of today's backend tooling.",
+    "link": "https://github.com/nodejs/node"
+  },
+  {
+    "readTime": "5 min read",
+    "title": "Project Spotlight: Vue.js — A Framework Sustained by Sponsorship, Not a Company",
+    "excerpt": "Created by Evan You after working with Angular at Google, Vue grew into a major framework funded largely through community and corporate sponsorship rather than one employer.",
+    "link": "https://github.com/vuejs/core"
+  },
+  {
+    "readTime": "6 min read",
+    "title": "Project Spotlight: Rust — Memory Safety Without a Garbage Collector",
+    "excerpt": "Originally a Mozilla research project, Rust is now stewarded by the independent Rust Foundation and used across systems programming, from browsers to operating systems.",
+    "link": "https://github.com/rust-lang/rust"
+  },
+  {
+    "readTime": "5 min read",
+    "title": "Project Spotlight: React — How a Facebook Side Project Became the Web's Default UI Library",
+    "excerpt": "Released by Meta (then Facebook) in 2013, React's component model and virtual DOM approach reshaped how much of the industry builds interactive interfaces.",
+    "link": "https://github.com/facebook/react"
+  },
+  {
+    "readTime": "6 min read",
+    "title": "Project Spotlight: Kubernetes — The Container Orchestrator That Became the Default",
+    "excerpt": "Originally built at Google and donated to the Cloud Native Computing Foundation in 2015, Kubernetes became the de facto standard for running containerized workloads at scale.",
+    "link": "https://github.com/kubernetes/kubernetes"
+  },
+  {
+    "readTime": "5 min read",
+    "title": "Project Spotlight: The Linux Kernel — Three Decades of Collaborative Engineering",
+    "excerpt": "Started by Linus Torvalds in 1991, the Linux kernel now powers everything from smartphones to the majority of the world's top supercomputers.",
+    "link": "https://github.com/torvalds/linux"
+  }
+]
